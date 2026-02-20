@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+/* Creates scroll length */
+.scroll-container {
+    height: 600vh; /* Increase for slower animation */
+}
+
+/* Fullscreen canvas */
+#pcb-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
